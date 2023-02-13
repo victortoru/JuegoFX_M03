@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="853.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.juegofx_m03.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="853.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.juegofx_m03.Controller">
    <children>
       <ImageView fitHeight="481.0" fitWidth="853.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -14,9 +14,9 @@
          </image>
       </ImageView>
       
-      <Button layoutX="376.0" layoutY="366.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="102.0" text="START">
+      <Button layoutX="351.0" layoutY="363.0" mnemonicParsing="false" onAction="#onStartButtonClick" prefHeight="55.0" prefWidth="152.0" text="START">
          <font>
-            <Font name="Gayathri Bold" size="13.0" />
+            <Font name="LakkiReddy" size="18.0" />
          </font></Button>
    </children>
 </AnchorPane>
